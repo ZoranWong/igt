@@ -1,0 +1,21 @@
+{
+    "name": "ZoranWong/igt",
+    "description": "app pusher",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZoranWong",
+            "email": "904110231@qq.com"
+        }
+    ],
+
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoran\\IGt\\": "src/"
+        }
+    }
+}
